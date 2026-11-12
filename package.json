@@ -1,0 +1,19 @@
+{
+  "name": "firebase-push-notification-server",
+  "version": "1.0.0",
+  "description": "Production-ready Firebase Cloud Messaging server for Render deployment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.1",
+    "helmet": "^8.0.0"
+  }
+}
